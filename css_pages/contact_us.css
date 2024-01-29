@@ -1,0 +1,110 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../images_pages/c59ad2bd4ad2fbacd04017debc679ddb.gif);
+}
+
+.login-box {
+    position: relative;
+    width: 450px;
+    height: 400px;
+    background: transparent;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 255, 255, 0.5);
+    backdrop-filter: blur(15px);
+}
+
+h2 {
+    font-size: 3em;
+    /* font-family: ; */
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+.input-box {
+    position: relative;
+    width: 310px;
+    margin: 20px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    font-size: 1.1em;
+}
+
+
+.input-box input {
+    width: 85%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: white;
+    padding: 0 35px 0 10px;
+}
+
+.input-box input::placeholder {
+    color: white;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 8px;
+    color: white;
+    font-size: 1.2em;
+    line-height: 70px;
+}
+
+/* Add styles for the checkbox */
+.checkbox-box {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.checkbox-box input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.checkbox-box label {
+    color: white;
+}
+
+
+button {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.3em;
+    color: rgb(253, 253, 253);
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+button span{
+    text-align: center;
+    padding-top: 12px;
+}
+
+@media (max-width:400px) {
+    .login-box {
+        width: 100%;
+        height: 100vh;
+        border: none;
+    }
+
+}
