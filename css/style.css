@@ -13,7 +13,8 @@ body {
 
 header {
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+  position: relative;
 }
 
 .head {
@@ -57,8 +58,19 @@ header nav div form {
 /* main page */
 
 .main-landing {
-  margin-left: 5%;
+  height: 100vh;
+  background: url(../images/polygon-scatter-haikei.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+#container{
+  display: flex;
+  margin-right: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 
 .top-heading {
   font-family: Satoshi Variable;
@@ -127,7 +139,7 @@ header nav div form {
 /* technology */
 #Technologies {
   margin-top: 100px;
-  margin-left: 5%;
+  /* margin-left: 5%; */
 }
 
 .Tech-used-head {
@@ -237,6 +249,13 @@ header nav div form {
 }
 
 /* About */
+
+#about{
+  height: 100vh;
+  background: url(../images/wave-haikei.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .about-div {
   width: 100%;
